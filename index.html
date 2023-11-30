@@ -3,13 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- --- Google font 400 ---  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
-      rel="stylesheet"
-    />
+    <!-- --- Google fonts ---  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Italiana&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>Craftsvilla Bergen</title>
   </head>
@@ -32,10 +29,10 @@
       <!-- --- Nav bar search field and contact us link --- -->
       <div class="nav-button">
         <div class="nav-search">
-          <img src="" alt="" />
+          <img src="./Images/search.png" alt="" />
         </div>
         <div class="nav-contact">
-          <img src="" alt="" />
+          <img src="./Images/logginn.png" alt="" />
         </div>
       </div>
     </nav>
@@ -54,22 +51,44 @@
     </div>
     <!-- --- Footer with navigation and links to SoMe --- -->
     <footer>
-      <!-- --- Contact and about us links --- -->
-      <div class="contact"></div>
-      <div class="about-us"></div>
-      <!-- --- Footer navigation links --- -->
-      <ul class="footer-nav">
-        <li class="home"><a href="#">Home</a></li>
-        <li class="gallery"><a href="#">Gallery</a></li>
-        <li class="kits"><a href="#">Kits</a></li>
-        <li class="feedback"><a href="#">Feedback</a></li>
-        <li class="booking"><a href="#">Booking</a></li>
-      </ul>
-      <!-- --- SoMe links --- -->
-      <div class="fbook"></div>
-      <div class="insta"></div>
-      <div class="whatsapp"></div>
-      <div class="booking-button"></div>
+      <div class="footer-container">
+        <div class="col-1">
+          <div class="col-title">
+            <p>Contacts</p>
+          </div>
+          <ul>
+            <li>Crafstvilla</li>
+            <li>Strandgaten 12</li>
+            <li>5006 Bergen</li>
+            <li>981 98 987</li>
+            <li>craftsvilla@gmail.com</li>
+          </ul>
+        </div>
+        <!-- --- Footer navigation links --- -->
+        <div class="col-2">
+          <div class="col-title">
+            <p>About us</p>
+          </div>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Kits</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Booking</a></li>
+          </ul>
+        </div>
+        <!-- --- SoMe links --- -->
+        <div class="col-3">
+          <div class="fbook">
+            <img src="./Images/facebook-icon.png" alt="">
+          </div>
+      <div class="insta">
+        <img src="./Images/insta-icon.png" alt="">
+      </div>
+      <div class="whatsapp">
+        <img src="./Images/WA-icon.png" alt="">
+      </div>
+        </div>
     </footer>
   </body>
 </html>
