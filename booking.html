@@ -3,34 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- --- Google fonts ---  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Italiana&family=Nunito:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Booking</title>
   </head>
   <body>
-    <nav></nav>
+    <nav>
+      <!-- --- Company logo --- -->
+      <div class="logo">
+        <img src="./Images/logo-color-2.png" alt="" />
+      </div>
+      <!-- --- Nav bar navigation links --- -->
+      <ul class="nav-items">
+        <li class="home"><a href="#">Home</a></li>
+        <li class="gallery"><a href="Gallery.html">Gallery</a></li>
+        <li class="kits"><a href="#">Kits</a></li>
+        <li class="feedback"><a href="#">Feedback</a></li>
+        <li class="booking"><a href="booking.html">Booking</a></li>
+      </ul>
+      <!-- --- Nav bar search field and contact us link --- -->
+      <div class="nav-button">
+        <div class="nav-search">
+          <img src="./Images/search.png" alt="" />
+        </div>
+        <div class="nav-contact">
+          <img src="./Images/logginn.png" alt="" />
+        </div>
+      </div>
+    </nav>
     <header>
       <div class="title-container">
-        <h1></h1>
-        <p></p>
+        <h1>Booking</h1>
+        <p>Fill the form below to book an arts and crafts get together</p>
       </div>
     </header>
     <section class="form-section">
       <div class="form-row">
         <div class="col-1">
-          <label for=""></label>
-          <input type="text" />
+          <label for="">Name</label>
+          <input type="text" placeholder="Your name" />
         </div>
         <div class="col-2">
-          <label for=""></label>
-          <input type="text" />
+          <label for="">Email</label>
+          <input type="email" placeholder="Your email" />
         </div>
       </div>
       <div class="form-row">
         <div class="col-1">
-          <label for=""></label>
-          <input type="text" />
+          <label for="">Phone number</label>
+          <input type="tel" placeholder="999 99 999" />
         </div>
         <div class="col-2">
-          <label for=""></label>
+          <label for="">Quantity of people</label>
           <input type="text" />
         </div>
       </div>
