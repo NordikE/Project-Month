@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- --- Google font 400 ---  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Craftsvilla Bergen</title>
+</head>
+
+<body>
+    <!-- --- Navigation bar with logo, links to all pages, search and contact us --- -->
+    <nav>
+        <!-- --- Company logo --- -->
+        <div class="logo"></div>
+        <!-- --- Nav bar navigation links --- -->
+        <ul class="nav-items">
+            <li class="home"><a href="index.html">Home</a></li>
+            <li class="gallery"><a href="gallery.html">Gallery</a></li>
+            <li class="kits"><a href="kits.html">Kits</a></li>
+            <li class="feedback"><a href="feedback.html">Feedback</a></li>
+            <li class="booking"><a href="booking.html">Booking</a></li>
+        </ul>
+        <!-- --- Nav bar search field and contact us link --- -->
+        <div class="nav-search"></div>
+        <div class="nav-contact"></div>
+    </nav>
+
+    <!-- --- Header with title, and sometimes text and image --- -->
+    <div class="header">
+        <div class="header-title">
+            FEEDBACK
+        </div>
+        <!-- --- Header text and image is not on all pages, comment out if not needed (don't delete) --- -->
+        <!-- <div class="header-text"></div> -->
+        <div class="header-img"></div>
+    </div>
+    <!-- --- Content for various pages --- -->
+    <div class="page-content">
+        <!-- --- Container for page content --- -->
+        <div class="content-container1">
+            <h2>PROVIDE YOUR FEEDBACK BELOW:</h2><br><br>
+            <form action="/submit" method="">
+                <label for="name">Name (required)</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email (will not be published)</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="feedback">Share your thoughts with us</label>
+                <textarea id="feedback" name="feedback" cols="30" rows="5" placeholder="Please Share Your Feedback"
+                    required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="content-container2">
+
+            <h2>REVIEW CUSTOMER FEEDBACK</h2>
+            <div class="Review Container">
+                <div class="Names"></div>
+                <div class="Review">
+                    <button type="button">SS</button>
+                    <h2>Sarah Shah</h2>
+                    <p>Celebrated my birthday with friends by doing Jewellery Making. It was a unique and enjoyable
+                        experience. We laughed,
+                        got
+                        a bit messy, and created some amazing chains and earrings. The studio provided all the
+                        materials, and the staff was
+                        super accommodating. Will definitely come back for more group activities!"</p>
+                </div>
+                <div class="Review">
+                    <button type="button">TM</button>
+                    <h2>Tessa Morissan</h2>
+                    <p>Took my mom for a special Mother's Day treat—candle making! The studio had a variety of scents to
+                        choose from, and we
+                        had a blast creating our own custom candles. The whole experience was relaxing, and the finished
+                        candles turned out
+                        beautifully. A perfect way to bond and create lasting memories with Mom.</p>
+                </div>
+                <div class="Review">
+                    <button type="button">PE</button>
+                    <h2>Patricia Eyre</h2>
+                    <p>Brought my kids for a glass painting session and we had a blast! The instructor was patient with
+                        the little ones and
+                        made sure everyone felt included. The studio had a wonderful family-friendly atmosphere. The
+                        kids were so proud of their
+                        masterpieces, and I appreciated the memorable family activity..</p>
+                </div>
+                <div class="Review">
+                    <button type="button">AB</button>
+                    <h2>Alice and Bob</h2>
+                    <p>My husband and I had a fantastic time at the oil painting workshop. The staff was friendly and
+                        helpful, guiding us
+                        through the process. It was a great way to spend quality time together and unleash our creative
+                        sides. We even made
+                        personalized mugs for each other. Highly recommend!</p>
+                </div>
+            </div>
+        </div>
+        <button type="button">READ MORE</button>
+    </div>
+    <!-- --- Footer with navigation and links to SoMe --- -->
+    <footer>
+        <!-- --- Contact and about us links --- -->
+        <div class="contact"></div>
+        <div class="about-us"></div>
+        <!-- --- Footer navigation links --- -->
+        <ul class="footer-nav">
+            <li class="home"><a href="#">Home</a></li>
+            <li class="gallery"><a href="#">Gallery</a></li>
+            <li class="kits"><a href="#">Kits</a></li>
+            <li class="feedback"><a href="#">Feedback</a></li>
+            <li class="booking"><a href="#">Booking</a></li>
+        </ul>
+        <!-- --- SoMe links --- -->
+        <div class="fbook"></div>
+        <div class="insta"></div>
+        <div class="whatsapp"></div>
+        <div class="booking-button"></div>
+    </footer>
+</body>
+
+</html>

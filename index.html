@@ -6,11 +6,13 @@
     <!-- --- Google fonts ---  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Italiana&family=Nunito:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Craftsvilla Bergen</title>
   </head>
 
@@ -39,23 +41,85 @@
         </div>
       </div>
     </nav>
-
-    <!-- --- Header with title, and sometimes text and image --- -->
-    <div class="header">
-      <div class="header-title"></div>
-      <!-- --- Header text and image is not on all pages, comment out if not needed (don't delete) --- -->
-      <div class="header-text"></div>
-      <div class="header-img"></div>
-    </div>
-    <!-- --- Content for various pages --- -->
-    <div class="page-content">
-      <!-- --- Container for page content --- -->
-      <div class="content-container"></div>
-    </div>
-    <!-- --- Footer with navigation and links to SoMe --- -->
+    <!-- --- HEADER --- -->
+    <header>
+      <div class="main-title">
+        <h1>Welcome to Craftsvilla</h1>
+        <p>
+          Unleash your team's or family's creativity with our engaging arts and
+          crafts lessons and kits. Whether you're looking to bond with your
+          colleagues or spend quality time with your loved ones, our innovative
+          approach to arts and crafts is designed to inspire, connect, and
+          create lasting memories.
+        </p>
+      </div>
+    </header>
+    <!-- --- SECTION 1 --- -->
+    <section class="section-1">
+      <div class="section-1-container">
+        <div class="col-1">
+          <h2>Crafting Together, Building Bonds</h2>
+          <p>
+            At Craftsvilla, we believe that shared creative experiences can
+            strengthen relationships and foster teamwork. Our expert instructors
+            curate interactive arts and crafts lessons that cater to groups of
+            all sizes, perfect for team-building exercises or family fun. From
+            corporate events seeking unique team-building activities to families
+            yearning for quality time filled with creativity, our lessons are
+            tailored to suit various needs and occasions.
+          </p>
+        </div>
+        <!-- --- PUT THE IMAGE!!!! --- -->
+        <div class="col-2">
+          <img src="" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- --- SECTION 2 --- -->
+    <section class="section-2">
+      <div class="section-2-container">
+        <h2>Diverse Range of Activities</h2>
+        <p>
+          Explore our diverse array of arts and crafts activities suitable for
+          every skill level. From painting to candle and jewellery making and
+          beyond, our lessons offer an exciting mix of traditional and
+          contemporary crafts. Our seasoned instructors guide participants
+          step-by-step, ensuring an enjoyable and enriching experience for all.
+        </p>
+      </div>
+    </section>
+    <!-- --- SECTION 3 --- -->
+    <section class="section-3">
+      <div class="section-3-container">
+        <h2>Craft Kits for Every Occasion</h2>
+        <div class="pic-row">
+          <!-- --- PUT THE IMAGE!!!! --- -->
+          <div class="img-container">
+            <img src="./Images/3-gallery-jewel.jpg" alt="" />
+          </div>
+          <div class="img-container">
+            <img src="./Images/3-gallery-soap.jpg" alt="" />
+          </div>
+          <div class="img-container">
+            <img src="./Images/1-homepage-jewel2.jpg" alt="" />
+          </div>
+        </div>
+        <p>
+          Can't get enough of our lessons? Take the creativity home with our
+          arts and crafts kits! We offer carefully curated kits containing
+          high-quality materials and easy-to-follow instructions. These kits
+          enable you to continue the artistic journey you started in our
+          lessons, fostering creativity at your own pace and convenience.
+        </p>
+        <div class="button-container">
+          <a href="booking.html">Book now</a>
+        </div>
+      </div>
+    </section>
+    <!-- --- FOOTER --- -->
     <footer>
       <div class="footer-container">
-        <div class="col-1">
+        <div class="col col-1">
           <div class="col-title">
             <p>Contacts</p>
           </div>
@@ -68,20 +132,20 @@
           </ul>
         </div>
         <!-- --- Footer navigation links --- -->
-        <div class="col-2">
+        <div class="col col-2">
           <div class="col-title">
             <p>About us</p>
           </div>
           <ul>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Kits</a></li>
-            <li><a href="#">Feedback</a></li>
-            <li><a href="#">Booking</a></li>
+            <li><a href="index.html">About us</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="kits.html">Kits</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="booking.html">Booking</a></li>
           </ul>
         </div>
         <!-- --- SoMe links --- -->
-        <div class="col-3">
+        <div class="col col-3">
           <div class="fbook">
             <img src="./Images/facebook-icon.png" alt="" />
           </div>

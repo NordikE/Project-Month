@@ -37,13 +37,16 @@
         </div>
       </div>
     </nav>
+    <!-- --- HEADER --- -->
     <header>
       <div class="title-container">
         <h1>Booking</h1>
         <p>Fill the form below to book an arts and crafts get together</p>
       </div>
     </header>
+    <!-- --- BOOK FORM SECTION --- -->
     <section class="form-section">
+      <!-- --- ROW 1 --- -->
       <div class="form-row">
         <div class="col-1">
           <label for="">Name</label>
@@ -54,6 +57,7 @@
           <input type="email" placeholder="Your email" />
         </div>
       </div>
+      <!-- --- ROW 2 --- -->
       <div class="form-row">
         <div class="col-1">
           <label for="">Phone number</label>
@@ -61,35 +65,104 @@
         </div>
         <div class="col-2">
           <label for="">Quantity of people</label>
-          <input type="text" />
+          <select>
+            <option value="" disabled selected>0</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+          </select>
         </div>
       </div>
+      <!-- --- ROW 3 --- -->
       <div class="form-row">
         <div class="col-1">
-          <label for=""></label>
-          <input type="text" />
+          <label for="">Date</label>
+          <input type="date" />
         </div>
         <div class="col-2">
-          <label for=""></label>
-          <input type="text" />
+          <label for="">Time</label>
+          <input type="time" value="10:00" />
         </div>
       </div>
+      <!-- --- ROW 4 --- -->
       <div class="form-row">
         <div class="col-1">
-          <label for=""></label>
-          <input type="text" />
+          <label for="">Type of kit</label>
+          <select name="" id="">
+            <option value="" disabled selected>Choose Kit Type</option>
+            <option value="">Painting kit</option>
+            <option value="">Jewellery making kit</option>
+            <option value="">Candle making kit</option>
+            <option value="">Origami kit</option>
+            <option value="">Scrapbooking kit</option>
+            <option value="">Soap making kit</option>
+          </select>
         </div>
         <div class="col-2">
-          <a href=""></a>
+          <a href="">Book now</a>
         </div>
       </div>
     </section>
+    <!-- --- INFO SECTION --- -->
     <section class="info">
       <div class="info-container">
-        <h2></h2>
-        <p></p>
+        <h2>When will you receive instructions on how to join a class?</h2>
+        <p>
+          You should receive an email from Craftsvilla with joining instructions
+          in few hours and notifing a day or two before the class takes place.
+          The email can sometimes hide in junk folders, so in the first
+          instance, please check to see if the email is there.
+        </p>
       </div>
     </section>
-    <footer></footer>
+    <!-- --- FOOTER --- -->
+    <footer>
+      <div class="footer-container">
+        <div class="col-1">
+          <div class="col-title">
+            <p>Contacts</p>
+          </div>
+          <ul>
+            <li>Crafstvilla</li>
+            <li>Strandgaten 12</li>
+            <li>5006 Bergen</li>
+            <li>981 98 987</li>
+            <li>craftsvilla@gmail.com</li>
+          </ul>
+        </div>
+        <!-- --- Footer navigation links --- -->
+        <div class="col-2">
+          <div class="col-title">
+            <p>About us</p>
+          </div>
+          <ul>
+            <li><a href="index.html">About us</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="kits.html">Kits</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="booking.html">Booking</a></li>
+          </ul>
+        </div>
+        <!-- --- SoMe links --- -->
+        <div class="col-3">
+          <div class="fbook">
+            <img src="./Images/facebook-icon.png" alt="" />
+          </div>
+          <div class="insta">
+            <img src="./Images/insta-icon.png" alt="" />
+          </div>
+          <div class="whatsapp">
+            <img src="./Images/WA-icon.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
