@@ -41,7 +41,7 @@ p {
   padding: 2em;
 }
 
-.form-section {
+section .form-section {
   background-image: url("booking-back.jpg");
 }
 
