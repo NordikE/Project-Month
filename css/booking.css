@@ -41,8 +41,12 @@ p {
   padding: 2em;
 }
 
-.form-section {
-  background-image: url(./Images/booking-back.jpg);
+section .form-section {
+  background-image: url("booking-back.jpg");
+}
+
+.form-container {
+  max-width: 85%;
 }
 
 /* ---- FOOTER ----- */
