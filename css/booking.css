@@ -72,13 +72,14 @@ p {
   padding: 0.5em 2em;
   font-family: "Fjalla One", sans-serif;
   color: #a18c74;
+  font-size: 1.5rem;
 }
 
 input,
 select {
   width: 100%;
   margin-top: 0.5em;
-  padding: 0.5em 1em;
+  padding: 0.8em 1em;
   border: none;
   border-radius: 360px;
   background: #e0dfda;
