@@ -45,6 +45,10 @@ section .form-section {
   background-image: url("booking-back.jpg");
 }
 
+.form-container {
+  max-width: 85%;
+}
+
 /* ---- FOOTER ----- */
 
 footer {
