@@ -42,7 +42,7 @@ p {
 }
 
 .form-section {
-  background-image: url(./Images/booking-back.jpg);
+  background-image: url("booking-back.jpg");
 }
 
 /* ---- FOOTER ----- */
