@@ -68,11 +68,18 @@ p {
   color: #a18c74;
 }
 
-input {
-  border: none;
+input,
+select {
+  width: 100%;
+  margin-top: 0.5em;
   padding: 0.5em 1em;
+  border: none;
   border-radius: 360px;
   background: #e0dfda;
+}
+
+select {
+  width: 115%;
 }
 
 /* ---- FOOTER ----- */
