@@ -18,9 +18,11 @@ body {
 }
 
 h1 {
+  max-width: 100%;
   color: #47150a;
   font-family: "Italiana", sans-serif;
   font-size: 6rem;
+  text-transform: uppercase;
   margin: 0;
 }
 
@@ -37,10 +39,14 @@ p {
 /* ---- HEADER ----- */
 
 .title-container {
-  max-width: 28%;
   margin: 0 auto;
   text-align: center;
   padding: 2em;
+}
+
+.title-container p {
+  margin: 0 auto;
+  max-width: 28%;
 }
 
 /* ---- FORM SECTION ----- */
@@ -80,6 +86,10 @@ select {
 
 select {
   width: 115%;
+}
+
+input[type="text"] {
+  color: #a18c74;
 }
 
 /* ---- FOOTER ----- */
