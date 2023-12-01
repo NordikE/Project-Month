@@ -92,6 +92,25 @@ input[type="text"] {
   color: #a18c74;
 }
 
+.info-container {
+  max-width: 85%;
+  margin: 0 auto;
+  padding: 2.5em 0;
+}
+
+h2 {
+  margin: 0;
+  color: #a18c74;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.info-container p {
+  color: #868174;
+  font-size: 1rem;
+}
+
 /* ---- FOOTER ----- */
 
 footer {
@@ -100,7 +119,7 @@ footer {
 }
 
 .footer-container {
-  max-width: 90%;
+  max-width: 85%;
   margin: 0 auto;
   padding: 2em;
   display: flex;
