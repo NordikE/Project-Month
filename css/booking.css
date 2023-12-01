@@ -22,6 +22,7 @@ h1 {
   color: #47150a;
   font-family: "Italiana", sans-serif;
   font-size: 6rem;
+  font-weight: 400;
   text-transform: uppercase;
   margin: 0;
 }
@@ -29,11 +30,84 @@ h1 {
 p {
   margin: 0;
   margin-top: 0.8em;
+  color: #868174;
+}
+
+/* ---- Nav-bar----- */
+nav {
+  display: flex;
+  background-color: #d2cbaf;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo img {
-  width: 10px;
+  float: left;
+  width: 80px;
   height: auto;
+  margin-top: 10px;
+}
+
+.nav-items {
+  display: flex;
+  width: 800px;
+  height: 55px;
+  padding: 20px 200px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #a18c74;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: "Nunito", sans-serif;
+}
+
+.nav-items a:hover {
+  color: lightblue;
+}
+
+.nav-items ul {
+  display: flex;
+}
+
+.nav-items ul li {
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-button {
+  display: flex;
+  padding: 40px 60px;
+  gap: 5px;
+  margin-left: auto;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.nav-search,
+.nav-contact {
+  background-color: #868174;
+  padding: 10px 20px;
+  border-radius: 360px;
+  margin-right: 10px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.nav-search img,
+.nav-contact img {
+  width: 20px;
+  height: 20px;
+  display: block;
 }
 
 /* ---- HEADER ----- */
@@ -52,14 +126,29 @@ p {
 /* ---- FORM SECTION ----- */
 
 .form-section {
-  padding: 2em 0;
   width: 100%;
-  background-image: url("../Images/booking-back.jpg");
-  background-size: 100%;
+  padding: 2em 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.form-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../Images/booking-back.jpg);
+  background-size: cover;
+  background-image: top center;
+  opacity: 30%;
 }
 
 .form-container {
-  max-width: 60%;
+  max-width: 70%;
   margin: 0 auto;
   padding: 2em 0.2em;
   background-color: #fffffff3;
@@ -125,7 +214,6 @@ h2 {
 }
 
 .info-container p {
-  color: #868174;
   font-size: 1rem;
 }
 
