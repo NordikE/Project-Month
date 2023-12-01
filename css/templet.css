@@ -1,0 +1,18 @@
+/* ---- Fonts ----- */
+/*
+font-family: "Fjalla One", sans-serif;
+font-family: "Italiana", sans-serif;
+font-family: "Nunito", sans-serif;
+*/
+
+/* ---- Colors ----- */
+/*
+accent-color: #47150A;
+light-colors: #E0DFDA, #D2CBAF;
+dark-colors: #868174, #A18C74;
+*/
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}

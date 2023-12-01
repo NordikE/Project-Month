@@ -10,14 +10,17 @@
       href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Italiana&family=Nunito:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/booking.css" />
     <title>Booking</title>
   </head>
   <body>
     <nav>
       <!-- --- Company logo --- -->
       <div class="logo">
-        <img src="./Images/logo-color-2.png" alt="" />
+        <img
+          src="./Images/logo-color-2.png"
+          alt="Company logo featuring a tent and the name"
+        />
       </div>
       <!-- --- Nav bar navigation links --- -->
       <ul class="nav-items">
@@ -30,10 +33,10 @@
       <!-- --- Nav bar search field and contact us link --- -->
       <div class="nav-button">
         <div class="nav-search">
-          <img src="./Images/search.png" alt="" />
+          <img src="./Images/search.png" alt="magnifying glass icon" />
         </div>
         <div class="nav-contact">
-          <img src="./Images/logginn.png" alt="" />
+          <img src="./Images/logginn.png" alt="Log in icon" />
         </div>
       </div>
     </nav>
@@ -46,67 +49,63 @@
     </header>
     <!-- --- BOOK FORM SECTION --- -->
     <section class="form-section">
-      <!-- --- ROW 1 --- -->
-      <div class="form-row">
+      <div class="form-container">
+        <!-- --- FIRST COLLUMN IN FORM --- -->
         <div class="col-1">
-          <label for="">Name</label>
-          <input type="text" placeholder="Your name" />
+          <div class="row label-1">
+            <label for="">Name</label><br />
+            <input type="text" placeholder="Your name" />
+          </div>
+          <div class="row label-2">
+            <label for="">Phone number</label><br />
+            <input type="tel" placeholder="999 99 999" />
+          </div>
+          <div class="row label-3">
+            <label for="">Date</label><br />
+            <input type="date" />
+          </div>
+          <div class="row label-4">
+            <label for="">Type of kit</label><br />
+            <select name="" id="">
+              <option value="" disabled selected>Choose Kit Type</option>
+              <option value="">Painting kit</option>
+              <option value="">Jewellery making kit</option>
+              <option value="">Candle making kit</option>
+              <option value="">Origami kit</option>
+              <option value="">Scrapbooking kit</option>
+              <option value="">Soap making kit</option>
+            </select>
+          </div>
         </div>
+        <!-- --- SECOND COLLUMN IN FORM --- -->
         <div class="col-2">
-          <label for="">Email</label>
-          <input type="email" placeholder="Your email" />
-        </div>
-      </div>
-      <!-- --- ROW 2 --- -->
-      <div class="form-row">
-        <div class="col-1">
-          <label for="">Phone number</label>
-          <input type="tel" placeholder="999 99 999" />
-        </div>
-        <div class="col-2">
-          <label for="">Quantity of people</label>
-          <select>
-            <option value="" disabled selected>0</option>
-            <option value="">1</option>
-            <option value="">2</option>
-            <option value="">3</option>
-            <option value="">4</option>
-            <option value="">5</option>
-            <option value="">6</option>
-            <option value="">7</option>
-            <option value="">8</option>
-            <option value="">9</option>
-            <option value="">10</option>
-          </select>
-        </div>
-      </div>
-      <!-- --- ROW 3 --- -->
-      <div class="form-row">
-        <div class="col-1">
-          <label for="">Date</label>
-          <input type="date" />
-        </div>
-        <div class="col-2">
-          <label for="">Time</label>
-          <input type="time" value="10:00" />
-        </div>
-      </div>
-      <!-- --- ROW 4 --- -->
-      <div class="form-row">
-        <div class="col-1">
-          <label for="">Type of kit</label>
-          <select name="" id="">
-            <option value="" disabled selected>Choose Kit Type</option>
-            <option value="">Painting kit</option>
-            <option value="">Jewellery making kit</option>
-            <option value="">Candle making kit</option>
-            <option value="">Origami kit</option>
-            <option value="">Scrapbooking kit</option>
-            <option value="">Soap making kit</option>
-          </select>
-        </div>
-        <div class="col-2">
-          <a href="">Book now</a>
+          <div class="row label-5">
+            <label for="">Email</label><br />
+            <input type="email" placeholder="Your email" />
+          </div>
+          <div class="row label-6">
+            <label for="">Quantity of people</label><br />
+            <select>
+              <option value="" disabled selected>0</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+              <option value="">6</option>
+              <option value="">7</option>
+              <option value="">8</option>
+              <option value="">9</option>
+              <option value="">10</option>
+            </select>
+          </div>
+          <div class="row label-7">
+            <label for="">Time</label><br />
+            <input type="time" value="10:00" />
+          </div>
+          <div class="row label-8">
+            <a href="">Book now</a>
+          </div>
         </div>
       </div>
     </section>
@@ -153,13 +152,13 @@
         <!-- --- SoMe links --- -->
         <div class="col-3">
           <div class="fbook">
-            <img src="./Images/facebook-icon.png" alt="" />
+            <img src="./Images/facebook-icon.png" alt="Facebook icon" />
           </div>
           <div class="insta">
-            <img src="./Images/insta-icon.png" alt="" />
+            <img src="./Images/insta-icon.png" alt="Instagram icon" />
           </div>
           <div class="whatsapp">
-            <img src="./Images/WA-icon.png" alt="" />
+            <img src="./Images/WA-icon.png" alt="Whatsapp icon" />
           </div>
         </div>
       </div>
