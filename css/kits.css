@@ -19,13 +19,17 @@ body {
 
 .kits {
   display: flex;
-  width: 1137px;
-  height: 233px;
+  align-items: flex-start;
 }
 
 .kit-text {
-  width: 798px;
+  width: 700px;
 }
-.kit-img {
-  width: auto;
+.kit-image {
+  width: 400px;
+}
+
+.kit-image img {
+  max-width: 100%;
+  height: auto;
 }
