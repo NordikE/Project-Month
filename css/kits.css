@@ -23,63 +23,114 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  background-color: white;
+  height: 60px;
+  justify-content: center;
   align-items: center;
-  height: 83px;
-  color: #a18c74;
-}
-
-/* --- NAV-bar company logo --- */
-
-.logo {
-  width: 128px;
-  height: 83px;
 }
 
 .logo img {
-  max-width: 100%;
+  float: left;
+  width: 80px;
   height: auto;
+  margin-top: 10px;
 }
-
-/* --- NAV-bar navigation links list --- */
 
 .nav-items {
   display: flex;
+  width: 800px;
+  height: 55px;
+  padding: 20px 200px;
   justify-content: center;
   align-items: center;
-  height: 46px;
-  width: 214px;
-  list-style-type: none;
-  margin: 40px;
-  padding: 40px;
+  gap: 20px;
 }
 
-/* --- NAV-bar search field and contact us button images --- */
+.nav-items a {
+  text-decoration: none;
+  color: #a18c74;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: "Nunito", sans-serif;
+}
+
+.nav-items a:hover {
+  color: lightblue;
+}
+
+.nav-items ul {
+  display: flex;
+}
+
+.nav-items ul li {
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
 
 .nav-button {
   display: flex;
-  padding: 21px 43px;
-  justify-content: center;
+  padding: 40px 60px;
+  gap: 5px;
+  margin-left: auto;
+  margin-bottom: 5px;
+  margin-top: 10px;
   align-items: center;
-  gap: 16px;
+}
+
+.nav-search,
+.nav-contact {
+  background-color: #868174;
+  padding: 10px 20px;
+  border-radius: 360px;
+  margin-right: 10px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.nav-search img,
+.nav-contact img {
+  width: 20px;
+  height: 20px;
+  display: block;
 }
 
 /* --- Header with title and text --- */
 
-header {
-  text-align: center;
-  background-color: #868174;
-  color: 47150A;
+.header-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 1440px;
+  padding: 50px;
+  background-color: #d2cbaf;
+  background-image: url("/Images/2-background.jpg");
+  background-size: cover;
+  background-position: top center;
 }
 
-h1 {
-  font-family: "Italiana", sans-serif;
+.header-container::before {
+  position: absolute;
+  content: " ";
+}
+
+.title {
+  text-align: center;
+  height: 200px;
+  font-family: "Italiana";
+  color: #47150a;
   font-weight: 400;
   font-size: 96px;
 }
 
-h3 {
-  font-family: "Italiana", sans-serif;
+.sub-title {
+  text-align: center;
+  height: 100 px;
+  font-family: "Italiana";
   color: #47150a;
   font-weight: 400;
   font-size: 36px;
@@ -94,6 +145,8 @@ h3 {
   width: 700px;
 }
 .kit-image {
+  padding: 10px 20px;
+  margin: 10px;
   width: 220px;
   height: 220px;
 }
