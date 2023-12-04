@@ -23,7 +23,7 @@ body {
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 83px;
   color: #a18c74;
@@ -49,9 +49,6 @@ nav {
   align-items: center;
   height: 46px;
   width: 214px;
-}
-
-.nav-items {
   list-style-type: none;
   margin: 40px;
   padding: 40px;
@@ -68,6 +65,11 @@ nav {
 }
 
 /* --- Header with title and text --- */
+
+header {
+  text-align: center;
+  background-color: #868174;
+}
 
 h1 {
   font-family: "Italiana", sans-serif;
