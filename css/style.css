@@ -17,6 +17,88 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+/* ---- Nav-bar----- */
+nav {
+  display: flex;
+  background-color: #d2cbaf;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  padding: 0.6em 2em;
+}
+
+.logo img {
+  float: left;
+  width: 80px;
+  height: auto;
+}
+
+.nav-items {
+  display: flex;
+  padding: 0.6em 5em;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #a18c74;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Nunito", sans-serif;
+  letter-spacing: 0.03em;
+  margin-right: 1em;
+}
+
+.nav-items a:hover {
+  padding: 0.5em 0.7em;
+  border: 0.1em solid #a18c74;
+  border-radius: 90px;
+  transition: 0.5s;
+}
+
+.nav-items ul {
+  display: flex;
+}
+
+.nav-items ul li {
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-button {
+  display: flex;
+  padding: 0.6em 5em;
+  margin-left: auto;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.nav-search,
+.nav-contact {
+  background-color: #a18c74;
+  padding: 10px 20px;
+  border-radius: 360px;
+  margin-right: 10px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.nav-search img,
+.nav-contact img {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
 /* ---- FOOTER ----- */
 
 footer {
