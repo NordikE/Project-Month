@@ -115,7 +115,7 @@ ul {
 .title-container {
   margin: 0 auto;
   text-align: center;
-  padding: 2em;
+  padding: 3em;
 }
 
 .title-container p {
@@ -127,35 +127,20 @@ ul {
 
 .form-section {
   width: 100%;
-  padding: 2em 0;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
-.form-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url(../Images/booking-back.jpg);
+  padding: 3em 0;
+  background-image: url(../Images/Form-section.jpg);
   background-size: cover;
-  background-image: top center;
-  opacity: 30%;
 }
 
 .form-container {
-  max-width: 70%;
+  max-width: 45%;
   margin: 0 auto;
-  padding: 2em 0.2em;
+  padding: 0.5em 1em;
   background-color: #fffffff3;
   border-radius: 47px;
   box-shadow: 0px 0px 7px 0px #a18c74;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .form-col {
@@ -164,7 +149,9 @@ ul {
 }
 
 .row {
-  padding: 0.5em 2em;
+  margin: 0.5em 1em;
+  padding: 0.5em 1em;
+  padding-left: 0;
   font-family: "Fjalla One", sans-serif;
   color: #a18c74;
   font-size: 1.5rem;
@@ -199,6 +186,12 @@ input[type="time"] {
   color: #868174;
 }
 
+input [type="time"] {
+  -webkit-appearance: none; /* remove default appearance on Webkit-based browsers */
+  -moz-appearance: none; /* remove default appearance on Mozilla-based browsers */
+  appearance: none;
+}
+
 .info-container {
   max-width: 85%;
   margin: 0 auto;
@@ -215,6 +208,24 @@ h2 {
 
 .info-container p {
   font-size: 1rem;
+}
+
+.form-container a {
+  color: white;
+  background-color: #47150a;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5em 1.2em;
+  border-radius: 360px;
+  font-size: 1.3rem;
+}
+
+.label-8 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  padding: 0;
 }
 
 /* ---- FOOTER ----- */
