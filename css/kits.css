@@ -99,46 +99,59 @@ ul {
 
 /* --- Header with title and text --- */
 
-.header-container {
+.head-container {
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 300px;
   width: 1440px;
   padding: 50px;
-  background-color: #d2cbaf;
+}
+
+.head-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
   background-image: url("/Images/2-background.jpg");
   background-size: cover;
   background-position: top center;
-}
-
-.header-container::before {
-  position: absolute;
-  content: " ";
+  opacity: 0.25;
 }
 
 .title {
+  position: relative;
   text-align: center;
   height: 200px;
   font-family: "Italiana";
   color: #47150a;
   font-weight: 400;
   font-size: 96px;
+  margin-bottom: 80px;
 }
 
 .sub-title {
+  position: relative;
   text-align: center;
-  height: 100 px;
+  height: 100px;
   font-family: "Italiana";
   color: #47150a;
   font-weight: 400;
   font-size: 36px;
 }
+/* --- Page Content ---  */
 
 .kits {
   display: flex;
   align-items: flex-start;
+  margin: 50px;
+  padding: 50px 0 0 100px;
+  border: solid #ffffff 10px;
+  border-radius: 20px;
 }
 
 .kit-text {
