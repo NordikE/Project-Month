@@ -300,6 +300,13 @@ h2 {
   font-size: 1.3rem;
 }
 
+.form-container a:hover,
+.form-container a:focus {
+  color: #47150a;
+  background-color: #d2cbaf;
+  border: 1px solid #47150a;
+}
+
 /* ---- FOOTER ----- */
 
 footer {
@@ -315,9 +322,28 @@ footer {
   justify-content: space-between;
 }
 
+@media (max-width: 600px) {
+  .footer-container {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
 .col {
   max-width: 30%;
   margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .col-3 {
+    margin-bottom: 1.7em;
+  }
+
+  .col-2 {
+    margin-bottom: 1.7em;
+  }
 }
 
 .col-title {
