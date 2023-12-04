@@ -14,18 +14,91 @@ dark-colors: #868174, #A18C74;
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Fjalla One", "Italiana", "Nunito", sans-serif;
+  background-color: #d2cbaf;
+  color: #a18c74;
+}
+
+/* --- NAV-bar with logo, links to all pages, search and contact us --- */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 83px;
+  color: #a18c74;
+}
+
+/* --- NAV-bar company logo --- */
+
+.logo {
+  width: 128px;
+  height: 83px;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* --- NAV-bar navigation links list --- */
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 46px;
+  width: 214px;
+  list-style-type: none;
+  margin: 40px;
+  padding: 40px;
+}
+
+/* --- NAV-bar search field and contact us button images --- */
+
+.nav-button {
+  display: flex;
+  padding: 21px 43px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+/* --- Header with title and text --- */
+
+header {
+  text-align: center;
+  background-color: #868174;
+}
+
+h1 {
+  font-family: "Italiana", sans-serif;
+  color: #47150a;
+  font-weight: 400;
+  font-size: 96px;
+}
+
+h3 {
+  font-family: "Italiana", sans-serif;
+  color: #47150a;
+  font-weight: 400;
+  font-size: 36px;
 }
 
 .kits {
   display: flex;
-  width: 1137px;
-  height: 233px;
+  align-items: flex-start;
 }
 
 .kit-text {
-  width: 798px;
+  width: 700px;
 }
-.kit-img {
-  width: auto;
+.kit-image {
+  width: 220px;
+  height: 220px;
+}
+
+.kit-image img {
+  max-width: 100%;
+  height: auto;
 }
