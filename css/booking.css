@@ -37,23 +37,23 @@ p {
 nav {
   display: flex;
   background-color: #d2cbaf;
-  height: 60px;
   justify-content: center;
   align-items: center;
+}
+
+.logo {
+  padding: 0.6em 2em;
 }
 
 .logo img {
   float: left;
   width: 80px;
   height: auto;
-  margin-top: 10px;
 }
 
 .nav-items {
   display: flex;
-  width: 800px;
-  height: 55px;
-  padding: 20px 200px;
+  padding: 0.6em 5em;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -62,13 +62,19 @@ nav {
 .nav-items a {
   text-decoration: none;
   color: #a18c74;
-  font-size: 20px;
-  font-weight: lighter;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
   font-family: "Nunito", sans-serif;
+  letter-spacing: 0.03em;
+  margin-right: 1em;
 }
 
 .nav-items a:hover {
-  color: lightblue;
+  padding: 0.5em 0.7em;
+  border: 0.1em solid #a18c74;
+  border-radius: 90px;
+  transition: 0.5s;
 }
 
 .nav-items ul {
@@ -85,8 +91,7 @@ ul {
 
 .nav-button {
   display: flex;
-  padding: 40px 60px;
-  gap: 5px;
+  padding: 0.6em 5em;
   margin-left: auto;
   margin-bottom: 5px;
   margin-top: 10px;
@@ -95,7 +100,7 @@ ul {
 
 .nav-search,
 .nav-contact {
-  background-color: #868174;
+  background-color: #a18c74;
   padding: 10px 20px;
   border-radius: 360px;
   margin-right: 10px;
@@ -133,67 +138,141 @@ ul {
 }
 
 .form-container {
-  max-width: 45%;
   margin: 0 auto;
-  padding: 0.5em 1em;
-  background-color: #fffffff3;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 65%;
+  background-color: #ffffffe6;
   border-radius: 47px;
   box-shadow: 0px 0px 7px 0px #a18c74;
-  display: flex;
-  justify-content: center;
-}
+} /* <---- white form container for inputs ----- */
 
 .form-col {
   display: flex;
   flex-direction: column;
-}
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0;
+} /* <---- Collumn with all inputs ----- */
 
 .row {
-  margin: 0.5em 1em;
-  padding: 0.5em 1em;
-  padding-left: 0;
+  width: 85%;
+  display: flex;
+  padding: 1em 2em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   font-family: "Fjalla One", sans-serif;
   color: #a18c74;
   font-size: 1.5rem;
+} /* <---- class that is used for inputs and select forms ----- */
+
+label {
+  margin: 0;
+}
+
+.label-8 {
+  margin: 0 auto;
+  padding-top: 1.7em;
+  justify-content: center;
+  align-items: center;
 }
 
 input,
 select {
   width: 100%;
-  margin-top: 0.5em;
+  margin-top: -1em;
   padding: 0.6em 1em;
   border: none;
   border-radius: 360px;
   background: #e0dfda;
 }
 
+/* ---- SELECT SETTINGS ----- */
+
 select {
   width: 115%;
   color: #a18c74;
 }
-input[type="date"] {
+
+select {
+  background: #e0dfda url(../Images/arrow-botton-icon.png);
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position: 92%;
 }
+select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Safari, Chrome, Opera */
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* for IE10 */
+select::-ms-expand {
+  display: none;
+}
+
+/* ---- INPUT (date) SETTINGS ----- */
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+input[type="date"] {
+  background: #e0dfda url(../Images/calendar-icon.png);
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position: 92%;
+}
+
+input[type="date"]::-webkit-datetime-edit-text {
+  -webkit-appearance: none;
+  display: none;
+}
+
+input[type="date"]::-webkit-datetime-edit-month-field {
+  -webkit-appearance: none;
+  display: none;
+}
+input[type="date"]::-webkit-datetime-edit-day-field {
+  -webkit-appearance: none;
+  display: none;
+}
+input[type="date"]::-webkit-datetime-edit-year-field {
+  -webkit-appearance: none;
+  display: none;
+}
+
+/* ---- INPUT (time) SETTINGS ----- */
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+/* ---- INPUT SETTINGS ----- */
 
 input[type="text"],
 input[type="tel"],
 input[type="date"],
 input[type="email"],
-input[type="time"] {
+input[type="time"],
+select {
   color: #a18c74;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
 }
 
 ::placeholder {
   color: #868174;
 }
 
-input [type="time"] {
-  -webkit-appearance: none; /* remove default appearance on Webkit-based browsers */
-  -moz-appearance: none; /* remove default appearance on Mozilla-based browsers */
-  appearance: none;
-}
+/* ---- INFO SECTION ----- */
 
 .info-container {
-  max-width: 85%;
+  max-width: 65%;
   margin: 0 auto;
   padding: 2.5em 0;
 }
@@ -215,17 +294,10 @@ h2 {
   background-color: #47150a;
   text-decoration: none;
   text-transform: uppercase;
+  margin: 0;
   padding: 0.5em 1.2em;
   border-radius: 360px;
   font-size: 1.3rem;
-}
-
-.label-8 {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin: auto;
-  padding: 0;
 }
 
 /* ---- FOOTER ----- */
@@ -236,7 +308,7 @@ footer {
 }
 
 .footer-container {
-  max-width: 85%;
+  max-width: 70%;
   margin: 0 auto;
   padding: 2em;
   display: flex;
