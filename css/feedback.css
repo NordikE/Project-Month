@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: "Fjalla One", "Nunito", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #272727;
@@ -81,7 +81,6 @@ ul {
     margin-right: 10px;
     height: fit-content;
     width: fit-content;
-
 }
 
 .nav-search img,
@@ -91,34 +90,181 @@ ul {
     display: block;
 }
 /* ---- Header ----- */
-.header-container {
-    display: flex;
-    width: 1440px;
+ .header-section img {
+    width: 100%;
     height: 250px;
-    padding-top: 70px;
-}
+    padding-top: 0px;      
 
+} 
+.header-section{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    padding-top: 40px;
+}
+ .header-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../Images/group-women-hands-holding-chat-bubbles.jpg);
+    background-size:contain;
+    background-image: top center;
+    opacity: 30%;
+} 
 header {
     background-color: #D2CBAF;
 }
-
+ 
 .header-title {
-    max-width: 18%;
-    margin: 0 auto;
+    max-width: 50%;
+    margin:auto;
     text-align: center;
     justify-content: center;
+    padding: 17px 270px;
 }
 h1 {
     color: #47150a;
-    font-family: "Italiana";
-    font-size: 4rem;
+    font-family: "Italiana", sans-serif;
+    font-size: 6rem;
     margin: 0;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
 }
+
 /* ---- Section ----- */
+.page-content{
+        display: flex;
+        width: 1400px;
+        padding: 40px 159px;
+        align-items: flex-start;
+        gap: 44px;
+}
+.content-container{
+    display: flex;
+    height:auto;
+    width: 1100px;
+    padding: 40px 0px;
+    flex-direction: column;
+    align-items: center;
+}
 
+.content-container h2,h2{
+    color: #A18C74;   
+    font-family: "Fjalla One", sans-serif;
+    padding-right: 0px;
+}
+.title-form,.title-review{
+    font-size:30px;
+}
+.title-review{
+    margin-bottom: 30px;
+}
+.label1 {
+    padding: 0.5em 2em;
+    font-family: "Fjalla One", sans-serif;
+    color: #a18c74;
+    font-size: 1.5rem;
+}
 
+input,
+select {
+    width: 100%;
+    margin-top: 0.5em;
+    padding: 0.6em 1em;
+    border-radius: 360px;
+    border: 1px solid #C4BAAD;
+}
+input[type=text]
+{
+    width: 100%;
+}
+input[type=email] {
+    width: 100%;
+}
+
+input::placeholder{
+    color: #E0DFDA;
+}
+textarea::placeholder{
+    color: #E0DFDA;
+}
+textarea{
+    resize: none!important;
+    border-radius: 5px;
+    border: 1px solid #C4BAAD;
+}
+.btn {
+    padding: 15px 30px;
+    background-color:#47150A;
+    border-radius: 360px;
+    color: #f0f1f3;
+    font-size:14px;
+    margin: 10px 50px;
+}
+.review-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background: #E0DFDA;
+    border-radius: 22px;
+}
+.circle-container{
+    display: flex;
+    padding: 7px 12px;    
+     gap: 7px;
+}
+.circle-container button{
+    background-color: #A18C74;
+        padding: 5px;
+        border-radius: 50%;
+        margin-right: 10px;
+        height: fit-content;
+        width: fit-content;
+        color:#FFFFFF;
+        border: none;
+}
+.text-container{
+        display: flex;
+        flex-direction: column;
+        padding: 26px 0px;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 7px 12px;
+        gap: 7px;
+}
+.text-container p{
+    color: #868174;
+    font-family: "Nunito", sans-serif;
+}
+.btn2{
+    padding: 15px 30px;
+    background-color: #47150A;
+    justify-content: center;
+    align-items: center;
+    border-radius: 360px;
+    color: #f0f1f3;
+    font-size: 14px;
+    margin: 10px 0px 0px 0px;
+}
+
+@media(max-width:500px) {
+    .header-section,
+    .page-content,
+    .footer-container nav {
+        flex-direction: row;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .box {
+        display: block;
+        text-align: center;
+    }
+}
 /* ---- FOOTER ----- */
 
 footer {
