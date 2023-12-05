@@ -93,6 +93,7 @@ ul {
   height: 20px;
   display: block;
 }
+
 @media (max-width: 675px) {
   .navitems ul {
     flex-direction: column;

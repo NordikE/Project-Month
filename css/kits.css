@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
   font-family: "Nunito", sans-serif;
@@ -17,12 +18,42 @@ p {
   margin: 0;
   margin-top: 0.8em;
   color: #868174;
+=======
+/* ---- Fonts ----- */
+/*
+font-family: "Fjalla One", sans-serif;
+font-family: "Italiana", sans-serif;
+font-family: "Nunito", sans-serif;
+*/
+
+/* ---- Colors ----- */
+/*
+accent-color: #47150A;
+light-colors: #E0DFDA, #D2CBAF;
+dark-colors: #868174, #A18C74;
+*/
+
+body {
+  font-family: "Fjalla One", "Nunito", "Italiana", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272727;
+  background-color: #f0f1f3;
+}
+
+section {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 3em 0;
+>>>>>>> a5a920491a48f2ce60e210acb4be0349816070e4
 }
 
 /* ---- Nav-bar----- */
 nav {
   display: flex;
-  background-color: #d2cbaf;
+  background-color: #fff;
   justify-content: center;
   align-items: center;
 }
@@ -135,7 +166,7 @@ ul {
   color: #47150a;
   font-weight: 400;
   font-size: 96px;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
 }
 
 .sub-title {
@@ -146,6 +177,7 @@ ul {
   color: #47150a;
   font-weight: 400;
   font-size: 36px;
+  padding: 60px;
 }
 /* --- Page Content ---  */
 
@@ -154,13 +186,27 @@ ul {
   align-items: flex-start;
   margin: 50px;
   padding: 50px 0 0 100px;
+  background-color: #a18c74;
   border: solid #ffffff 10px;
   border-radius: 20px;
 }
 
-.kit-text {
-  width: 700px;
+.kit-head {
+  font-family: "Italiana";
+  color: #47150a;
+  font-weight: 400;
+  font-size: 32px;
+  width: 800px;
 }
+
+.kit-para {
+  font-family: "Italiana";
+  color: #47150a;
+  font-weight: 400;
+  font-size: 24px;
+  width: 800px;
+}
+
 .kit-image {
   padding: 10px 20px;
   margin: 10px;
