@@ -1,46 +1,24 @@
-/* ---- Fonts ----- */
-/*
-font-family: "Fjalla One", sans-serif;
-font-family: "Italiana", sans-serif;
-font-family: "Nunito", sans-serif;
-*/
-
-/* ---- Colors ----- */
-/*
-accent-color: #47150A;
-light-colors: #E0DFDA, #D2CBAF;
-dark-colors: #868174, #A18C74;
-*/
-
-body {
-  margin: 0;
-  font-family: "Fjalla One", "Italiana", "Nunito", sans-serif;
-  background-color: #d2cbaf;
-  color: #a18c74;
-}
-
-/* --- NAV-bar with logo, links to all pages, search and contact us --- */
-
+/* ---- Nav-bar----- */
 nav {
   display: flex;
-  background-color: white;
-  height: 60px;
+  background-color: #d2cbaf;
   justify-content: center;
   align-items: center;
+}
+
+.logo {
+  padding: 0.6em 2em;
 }
 
 .logo img {
   float: left;
   width: 80px;
   height: auto;
-  margin-top: 10px;
 }
 
 .nav-items {
   display: flex;
-  width: 800px;
-  height: 55px;
-  padding: 20px 200px;
+  padding: 0.6em 5em;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -49,13 +27,19 @@ nav {
 .nav-items a {
   text-decoration: none;
   color: #a18c74;
-  font-size: 20px;
-  font-weight: lighter;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
   font-family: "Nunito", sans-serif;
+  letter-spacing: 0.03em;
+  margin-right: 1em;
 }
 
 .nav-items a:hover {
-  color: lightblue;
+  padding: 0.5em 0.7em;
+  border: 0.1em solid #a18c74;
+  border-radius: 90px;
+  transition: 0.5s;
 }
 
 .nav-items ul {
@@ -72,8 +56,7 @@ ul {
 
 .nav-button {
   display: flex;
-  padding: 40px 60px;
-  gap: 5px;
+  padding: 0.6em 5em;
   margin-left: auto;
   margin-bottom: 5px;
   margin-top: 10px;
@@ -82,7 +65,7 @@ ul {
 
 .nav-search,
 .nav-contact {
-  background-color: #868174;
+  background-color: #a18c74;
   padding: 10px 20px;
   border-radius: 360px;
   margin-right: 10px;
