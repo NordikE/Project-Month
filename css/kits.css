@@ -1,53 +1,13 @@
-<<<<<<< HEAD
 body {
   margin: 0;
   font-family: "Nunito", sans-serif;
-}
-
-h1 {
-  max-width: 100%;
-  color: #47150a;
-  font-family: "Italiana", sans-serif;
-  font-size: 6rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  margin: 0;
-}
-
-p {
-  margin: 0;
-  margin-top: 0.8em;
   color: #868174;
-=======
-/* ---- Fonts ----- */
-/*
-font-family: "Fjalla One", sans-serif;
-font-family: "Italiana", sans-serif;
-font-family: "Nunito", sans-serif;
-*/
-
-/* ---- Colors ----- */
-/*
-accent-color: #47150A;
-light-colors: #E0DFDA, #D2CBAF;
-dark-colors: #868174, #A18C74;
-*/
-
-body {
-  font-family: "Fjalla One", "Nunito", "Italiana", sans-serif;
-  padding: 0;
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #272727;
-  background-color: #f0f1f3;
 }
 
 section {
   max-width: 70%;
   margin: 0 auto;
   padding: 3em 0;
->>>>>>> a5a920491a48f2ce60e210acb4be0349816070e4
 }
 
 /* ---- Nav-bar----- */
@@ -181,7 +141,7 @@ ul {
 }
 /* --- Page Content ---  */
 
-.kits {
+.kits-section {
   display: flex;
   align-items: flex-start;
   margin: 50px;
