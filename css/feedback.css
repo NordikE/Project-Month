@@ -153,6 +153,14 @@ section {
   max-width: 50%;
 }
 
+#form-to-fill {
+  max-width: 30%;
+}
+
+#form-to-fill h2 {
+  font-size: 30px;
+}
+
 .content-container h2,
 h2 {
   color: #a18c74;
