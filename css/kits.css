@@ -1,7 +1,29 @@
 body {
   margin: 0;
   font-family: "Nunito", sans-serif;
-  color: #868174;
+}
+
+h1 {
+  max-width: 100%;
+  color: #47150a;
+  font-family: "Italiana", sans-serif;
+  font-size: 6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Italiana";
+  color: #47150a;
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Fjalla One", sans-serif;
+  margin: 0;
+  margin-top: 0.8em;
+  color: #47150a;
 }
 
 section {
@@ -126,7 +148,7 @@ ul {
   color: #47150a;
   font-weight: 400;
   font-size: 96px;
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
 }
 
 .sub-title {
@@ -152,17 +174,12 @@ ul {
 }
 
 .kit-head {
-  font-family: "Italiana";
-  color: #47150a;
-  font-weight: 400;
-  font-size: 32px;
+  /* font-weight: 400;
+  font-size: 32px; */
   width: 800px;
 }
 
 .kit-para {
-  font-family: "Italiana";
-  color: #47150a;
-  font-weight: 400;
   font-size: 24px;
   width: 800px;
 }
