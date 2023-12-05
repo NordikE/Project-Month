@@ -1,7 +1,43 @@
+/* ---- Fonts ----- */
+/*
+font-family: "Fjalla One", sans-serif;
+font-family: "Italiana", sans-serif;
+font-family: "Nunito", sans-serif;
+*/
+
+/* ---- Colors ----- */
+/*
+accent-color: #47150A;
+light-colors: #E0DFDA, #D2CBAF;
+dark-colors: #868174, #A18C74;
+*/
+
 body {
   margin: 0;
   font-family: "Nunito", sans-serif;
-  color: #868174;
+}
+
+h1 {
+  max-width: 100%;
+  color: #47150a;
+  font-family: "Italiana", sans-serif;
+  font-size: 6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Italiana", sans-serif;
+  color: #47150a;
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Fjalla One", sans-serif;
+  margin: 0;
+  margin-top: 0.8em;
+  color: #47150a;
 }
 
 section {
@@ -122,18 +158,18 @@ ul {
   position: relative;
   text-align: center;
   height: 200px;
-  font-family: "Italiana";
+  /* font-family: "Italiana";
   color: #47150a;
   font-weight: 400;
-  font-size: 96px;
-  margin-bottom: 120px;
+  font-size: 96px; */
+  /* margin-bottom: 120px; */
 }
 
 .sub-title {
   position: relative;
   text-align: center;
   height: 100px;
-  font-family: "Italiana";
+  font-family: "Fjalla One", sans-serif;
   color: #47150a;
   font-weight: 400;
   font-size: 36px;
@@ -152,17 +188,12 @@ ul {
 }
 
 .kit-head {
-  font-family: "Italiana";
-  color: #47150a;
-  font-weight: 400;
-  font-size: 32px;
+  /* font-weight: 400;
+  font-size: 32px; */
   width: 800px;
 }
 
 .kit-para {
-  font-family: "Italiana";
-  color: #47150a;
-  font-weight: 400;
   font-size: 24px;
   width: 800px;
 }
@@ -177,4 +208,94 @@ ul {
 .kit-image img {
   max-width: 100%;
   height: auto;
+}
+
+/* --- FOOTER --- */
+
+footer {
+  background: #d2cbaf;
+  color: #868174;
+}
+
+.footer-container {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.col {
+  max-width: 30%;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .col-3 {
+    margin-bottom: 1.7em;
+  }
+
+  .col-2 {
+    margin-bottom: 1.7em;
+  }
+}
+
+.col-title {
+  margin: 0;
+  margin-bottom: 0.5em;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.col-title p {
+  margin: 0;
+}
+
+.col-1,
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.footer-container ul {
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+.footer-container li {
+  list-style: none;
+}
+
+.col-2 a {
+  text-decoration: none;
+  color: #868174;
+}
+
+.col-2 a:hover,
+.col-2 a:focus {
+  text-decoration: none;
+  color: #868174;
+}
+
+.col-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container img {
+  width: 30px;
+  height: auto;
+  margin: 0 1em;
 }
