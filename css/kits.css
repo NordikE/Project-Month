@@ -1,25 +1,7 @@
-/* ---- Fonts ----- */
-/*
-font-family: "Fjalla One", sans-serif;
-font-family: "Italiana", sans-serif;
-font-family: "Nunito", sans-serif;
-*/
-
-/* ---- Colors ----- */
-/*
-accent-color: #47150A;
-light-colors: #E0DFDA, #D2CBAF;
-dark-colors: #868174, #A18C74;
-*/
-
 body {
-  font-family: "Fjalla One", "Nunito", "Italiana", sans-serif;
-  padding: 0;
   margin: 0;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #272727;
-  background-color: #f0f1f3;
+  font-family: "Nunito", sans-serif;
+  color: #868174;
 }
 
 section {
@@ -159,7 +141,7 @@ ul {
 }
 /* --- Page Content ---  */
 
-.kits {
+.kits-section {
   display: flex;
   align-items: flex-start;
   margin: 50px;

@@ -88,6 +88,85 @@ ul {
     width: 20px;
     height: 20px;
     display: block;
+}nav {
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    padding: 0.6em 2em;
+}
+
+.logo img {
+    float: left;
+    width: 80px;
+    height: auto;
+}
+
+.nav-items {
+    display: flex;
+    padding: 0.6em 5em;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #a18c74;
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 0.03em;
+    margin-right: 1em;
+}
+
+.nav-items a:hover {
+    padding: 0.5em 0.7em;
+    border: 0.1em solid #a18c74;
+    border-radius: 90px;
+    transition: 0.5s;
+}
+
+.nav-items ul {
+    display: flex;
+}
+
+.nav-items ul li {
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-button {
+    display: flex;
+    padding: 0.6em 5em;
+    margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.nav-search,
+.nav-contact {
+    background-color: #a18c74;
+    padding: 10px 20px;
+    border-radius: 360px;
+    margin-right: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.nav-search img,
+.nav-contact img {
+    width: 20px;
+    height: 20px;
+    display: block;
 }
 /* ---- Header ----- */
  .header-section img {
@@ -124,7 +203,7 @@ header {
     margin:auto;
     text-align: center;
     justify-content: center;
-    padding: 17px 270px;
+    padding: 20px 20em;
 }
 h1 {
     color: #47150a;
@@ -249,6 +328,12 @@ textarea{
     color: #f0f1f3;
     font-size: 14px;
     margin: 10px 0px 0px 0px;
+}
+.btn2:hover,
+.btn2:focus {
+    color: #47150a;
+    background-color: #d2cbaf;
+    border: 1px solid #47150a;
 }
 
 @media(max-width:500px) {
