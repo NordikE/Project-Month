@@ -364,7 +364,14 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-
+@media (max-width: 600px) {
+    .footer-container {
+        max-width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
 .col {
     max-width: 30%;
     margin: 0 auto;
@@ -419,4 +426,10 @@ footer {
     width: 30px;
     height: auto;
     margin: 0 1em;
+}
+footer li,
+footer p,
+footer a {
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
 }
