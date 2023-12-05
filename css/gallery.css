@@ -163,10 +163,11 @@ h1 {
   width: 100%;
   margin-bottom: 5px;
   background-size: cover;
-  transition: width 2s;
+  transition: all .3s ease-in-out;
+
 }
-img:hover {
-    width: 300px;
+.box img:hover {
+    width: 355px;
 }
 .img-title h2 {
   text-align: center;
