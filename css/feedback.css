@@ -427,9 +427,3 @@ footer {
     height: auto;
     margin: 0 1em;
 }
-footer li,
-footer p,
-footer a {
-    font-weight: 400;
-    font-family: "Nunito", sans-serif;
-}
