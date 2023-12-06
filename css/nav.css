@@ -1,7 +1,6 @@
-/* ---- Nav-bar----- */
 nav {
   display: flex;
-  background-color: #d2cbaf;
+  background-color: #fff;
   justify-content: center;
   align-items: center;
 }
