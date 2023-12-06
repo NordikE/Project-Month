@@ -174,7 +174,9 @@ label {
 }
 
 .label-8 {
+  max-width: 80%;
   margin: 0 auto;
+  padding: 0;
   padding-top: 1.7em;
   justify-content: center;
   align-items: center;
@@ -275,7 +277,7 @@ select {
 .info-container {
   max-width: 65%;
   margin: 0 auto;
-  padding: 2.5em 0;
+  padding: 3em 0;
 }
 
 h2 {
