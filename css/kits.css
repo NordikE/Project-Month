@@ -196,6 +196,15 @@ section {
   margin: 0;
 }
 
+.kit-sub {
+  max-width: 60%;
+  font-family: "Fjalla One", sans-serif;
+  color: #47150a;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+}
+
 h3 {
   margin: 0;
 }
