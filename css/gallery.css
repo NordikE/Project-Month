@@ -93,16 +93,6 @@ ul {
   height: 20px;
   display: block;
 }
-
-@media (max-width: 675px) {
-  .navitems ul {
-    flex-direction: column;
-  }
-
-  .navitms ul li {
-    margin: 0.5em 0;
-  }
-}
 /* ---- Header ----- */
 .header-section {
   display: flex;
