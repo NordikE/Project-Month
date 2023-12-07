@@ -28,10 +28,16 @@ h1 {
   margin: 0;
 }
 
+h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
 section {
   max-width: 70%;
   margin: 0 auto;
   padding: 3em 0;
+  background-color: #d2cbaf;
 }
 
 /* ---- Nav-bar----- */
@@ -157,7 +163,7 @@ header {
   height: 100px;
   font-family: "Nunito", sans-serif;
   color: #47150a;
-  text-shadow: 2px 2px 5px #e0dfda;
+  text-shadow: 3px 3px 5px #e0dfda;
   font-weight: 400;
   font-size: 17px;
 }
@@ -169,18 +175,18 @@ section {
 
 .kits-section {
   max-width: 70%;
-  margin: 0 auto;
+  margin: 5px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5em 1.5em;
   background-color: #a18c74;
-  border: solid #ffffff 10px;
+  border: solid #e0dfda 10px;
   border-radius: 20px;
 }
 
 .kit-text {
-  max-width: 60%;
+  max-width: 75%;
   font-family: "Fjalla One", sans-serif;
   color: #47150a;
   font-weight: 400;
@@ -188,16 +194,12 @@ section {
   margin: 0;
 }
 
-h3 {
-  margin: 0;
-  font-weight: normal;
-}
-
 .kit-para {
   margin: 1em 0;
   font-size: 20px;
   font-family: "Nunito", sans-serif;
-  color: #fff;
+  color: #e0dfda;
+  text-shadow: 2px 2px 5px #47150a;
 }
 
 .kit-image {
@@ -208,7 +210,7 @@ h3 {
 .kit-image img {
   max-width: 100%;
   height: 100%;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .kits-section a {
