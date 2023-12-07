@@ -23,14 +23,21 @@ h1 {
   font-family: "Italiana", sans-serif;
   font-size: 6rem;
   font-weight: 400;
+  text-shadow: 2px 2px 5px #e0dfda;
   text-transform: uppercase;
   margin: 0;
+}
+
+h3 {
+  margin: 0;
+  font-weight: normal;
 }
 
 section {
   max-width: 70%;
   margin: 0 auto;
   padding: 3em 0;
+  background-color: #d2cbaf;
 }
 
 /* ---- Nav-bar----- */
@@ -137,7 +144,7 @@ header {
   bottom: 0;
   right: 0;
   left: 0;
-  background-image: url("/Images/2-background.jpg");
+  background-image: url("../Images/2-background.jpg");
   background-size: cover;
   background-position: top center;
   opacity: 20%;
@@ -147,11 +154,6 @@ header {
   position: relative;
   text-align: center;
   margin: 0;
-  /* font-family: "Italiana";
-  color: #47150a;
-  font-weight: 400;
-  font-size: 96px; */
-  /* margin-bottom: 120px; */
 }
 
 .sub-title p {
@@ -161,8 +163,9 @@ header {
   height: 100px;
   font-family: "Nunito", sans-serif;
   color: #47150a;
+  text-shadow: 2px 2px 5px #e0dfda;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
 }
 /* --- Page Content ---  */
 section {
@@ -172,48 +175,30 @@ section {
 
 .kits-section {
   max-width: 70%;
-  margin: 0 auto;
+  margin: 10px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5em 1.5em;
   background-color: #a18c74;
-  border: solid #ffffff 10px;
   border-radius: 20px;
 }
 
-.kit-head {
-  /* font-weight: 400;
-  font-size: 32px; */
-}
-
 .kit-text {
-  max-width: 60%;
+  max-width: 75%;
   font-family: "Fjalla One", sans-serif;
   color: #47150a;
   font-weight: 400;
   font-size: 24px;
-  margin: 0;
-}
-
-.kit-sub {
-  max-width: 60%;
-  font-family: "Fjalla One", sans-serif;
-  color: #47150a;
-  font-weight: 400;
-  font-size: 24px;
-  margin: 0;
-}
-
-h3 {
   margin: 0;
 }
 
 .kit-para {
   margin: 1em 0;
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Nunito", sans-serif;
-  color: #fff;
+  color: #e0dfda;
+  text-shadow: 2px 2px 5px #47150a;
 }
 
 .kit-image {
@@ -224,7 +209,7 @@ h3 {
 .kit-image img {
   max-width: 100%;
   height: 100%;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .kits-section a {
@@ -237,6 +222,13 @@ h3 {
   color: #47150a;
   background-color: #d2cbaf;
   border: 1px solid #47150a;
+}
+
+.kits-section a:hover,
+.kits-section a:focus {
+  color: #d2cbaf;
+  background-color: #47150a;
+  border: 1px solid #d2cbaf;
 }
 
 /* --- FOOTER --- */
