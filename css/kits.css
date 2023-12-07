@@ -163,7 +163,7 @@ header {
   height: 100px;
   font-family: "Nunito", sans-serif;
   color: #47150a;
-  text-shadow: 3px 3px 5px #e0dfda;
+  text-shadow: 2px 2px 5px #e0dfda;
   font-weight: 400;
   font-size: 17px;
 }
@@ -175,13 +175,12 @@ section {
 
 .kits-section {
   max-width: 70%;
-  margin: 5px auto;
+  margin: 10px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5em 1.5em;
   background-color: #a18c74;
-  border: solid #e0dfda 10px;
   border-radius: 20px;
 }
 
