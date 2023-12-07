@@ -144,7 +144,7 @@ header {
   bottom: 0;
   right: 0;
   left: 0;
-  background-image: url("./Images/2-background.jpg");
+  background-image: url("../Images/2-background.jpg");
   background-size: cover;
   background-position: top center;
   opacity: 20%;
