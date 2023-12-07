@@ -23,6 +23,7 @@ h1 {
   font-family: "Italiana", sans-serif;
   font-size: 6rem;
   font-weight: 400;
+  text-shadow: 2px 2px 5px #e0dfda;
   text-transform: uppercase;
   margin: 0;
 }
@@ -147,11 +148,6 @@ header {
   position: relative;
   text-align: center;
   margin: 0;
-  /* font-family: "Italiana";
-  color: #47150a;
-  font-weight: 400;
-  font-size: 96px; */
-  /* margin-bottom: 120px; */
 }
 
 .sub-title p {
@@ -161,8 +157,9 @@ header {
   height: 100px;
   font-family: "Nunito", sans-serif;
   color: #47150a;
+  text-shadow: 2px 2px 5px #e0dfda;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
 }
 /* --- Page Content ---  */
 section {
@@ -182,21 +179,7 @@ section {
   border-radius: 20px;
 }
 
-.kit-head {
-  /* font-weight: 400;
-  font-size: 32px; */
-}
-
 .kit-text {
-  max-width: 60%;
-  font-family: "Fjalla One", sans-serif;
-  color: #47150a;
-  font-weight: 400;
-  font-size: 24px;
-  margin: 0;
-}
-
-.kit-sub {
   max-width: 60%;
   font-family: "Fjalla One", sans-serif;
   color: #47150a;
@@ -207,11 +190,12 @@ section {
 
 h3 {
   margin: 0;
+  font-weight: normal;
 }
 
 .kit-para {
   margin: 1em 0;
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Nunito", sans-serif;
   color: #fff;
 }
@@ -237,6 +221,13 @@ h3 {
   color: #47150a;
   background-color: #d2cbaf;
   border: 1px solid #47150a;
+}
+
+.kits-section a:hover,
+.kits-section a:focus {
+  color: #d2cbaf;
+  background-color: #47150a;
+  border: 1px solid #d2cbaf;
 }
 
 /* --- FOOTER --- */
